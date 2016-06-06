@@ -33,7 +33,8 @@ h4{
     display:block;
     float:left;
     color:#fff;
-    background-color:rgb(217, 179, 255);
+    /*background-color:rgb(217, 179, 255);*/
+    background-color:#b585ce;
     padding:1em;
     
 }
@@ -41,17 +42,22 @@ h4{
 #temp{
     
     margin:0 auto;
+    margin-top:.5em;
+    margin-left:1em;
+    height:2.5em;
     display:block;
-    padding:1em;
     float:left;
+    line-height:2.8em;
+    font-family:"FontAwesome";
     color:#fff;
+    /*background-color:#dcdfdf;*/
     background-color:rgb(82, 86, 89);
     
 }
 
 .fa-sun-o{
     
-    font-size:15px;
+    font-size:5px;
     font-family:"FontAwesome" !important;
     width:5em;
     height:5em;
@@ -62,11 +68,19 @@ h4{
     
     margin:0 auto;
     display:block;
-    padding:1em;
+    padding:1.em;
     font-size:1em;
     float:right;
     font-weight:thin;
-    color:#dd99ff;
+    color:#b585ce;
+}
+
+.fa-search{
+    
+    color:#000;
+    background-color:#fff;
+    padding:.4em;
+
 }
 
 /****trying out shapes****/
@@ -80,7 +94,6 @@ h4{
      
 /****END HERE****/
 
-
 #menu{
     
     margin:0 auto;
@@ -89,7 +102,15 @@ h4{
     font-size:1em;
     float:right;
     font-weight:thin;
-    color:#dd99ff;
+    color:#b585ce;
+}
+
+.fa-bars{
+
+    color:#000;
+    background-color:#fff;
+    padding:.4em;
+
 }
 
 header{
@@ -128,7 +149,7 @@ h1{
     margin:0 auto;
     display:block;
     font-size:5.5em;
-    color:#dd99ff;
+    color:#b585ce;
 }
 
 main{
