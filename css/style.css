@@ -13,6 +13,7 @@ body{
     margin:0 auto;
     width:100%;
     display:block;
+    font-family:'bebas regular';
     
 }
 
@@ -57,18 +58,44 @@ h4{
 #box{
     margin:0 auto;
     display:block;
+    padding:0;
     width:100%;
 }
 .one{
     
     margin:0 auto;
     display:inline-block;
-    width:calc(100%/4);
+    width:calc(99%/4);
     height:auto;
     background-color:green;
     
 }
-		
+.last{
+    
+    float:right;
+}
+
+
+#facts{
+    
+    margin:0 auto;
+    display:block;
+    font-size:4em;
+    padding:.2em;
+    transform:translateY(-.25em);
+    text-align:center;
+    background-color:blue;
+    
+}
+
+#long-bar{
+    
+    width:100%;
+    height:2em;
+    transform:translateY(-1em);
+    background-color:purple;
+    
+}		
 
 #temp{
     
