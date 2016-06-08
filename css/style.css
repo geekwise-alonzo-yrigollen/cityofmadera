@@ -54,6 +54,20 @@ h4{
 	border-top: 78px solid #b585ce;
 	border-right: 65px solid transparent;
 }
+#box{
+    margin:0 auto;
+    display:block;
+    width:100%;
+}
+.one{
+    
+    margin:0 auto;
+    display:inline-block;
+    width:calc(100%/4);
+    height:auto;
+    background-color:green;
+    
+}
 		
 
 #temp{
