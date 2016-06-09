@@ -55,26 +55,6 @@ h4{
 	border-top: 78px solid #b585ce;
 	border-right: 65px solid transparent;
 }
-.box{
-    margin:0 auto;
-    display:block;
-    transform:translateY(-5.3em);
-    width:100%;
-}
-.one{
-    
-    margin:0 auto;
-    display:inline-block;
-    width:calc(99%/4);
-    height:auto;
-    background-color:green;
-    
-}
-.last{
-    
-    float:right;
-}
-
 
 #facts{
     
@@ -226,9 +206,6 @@ header{
     
 }
 
-
-
-
 h1{
     
     margin:0 auto;
@@ -249,7 +226,50 @@ main{
 
 }
 
-h3{
+/****COMMENCE 1 OF 4 FIRST SQUARE BLOCK****/
+.box{
+    margin:0 auto;
+    display:block;
+    transform:translateY(-5.3em);
+    width:100%;
+}
+.one{
+    
+    margin:0 auto;
+    display:inline-block;
+    width:calc(80%/4);
+    height:auto;
+    background-color:green;
+    
+}
+.last{
+    
+    float:right;
+}
+
+/****COMMENCE FIRST SET OF FOUR BLOCKS BACKGROUND COLOR AND PADDING****/
+.first{
+    
+    padding:1em;
+    background-color:#d1d1e0;
+}
+.second{
+    padding:1em;
+    background-color:#dcdfdf;;
+}
+.third{
+    padding:1em;
+    background-color:#d1d1e0;
+}
+.fourth{
+    padding:1em;
+    background-color:#dcdfdf;;
+}
+
+/****CONCLUDE FIRST SET OF FOUR BLOCK BACKGROUND COLOR AND PADDING****/
+
+
+h5{
     
     color:red;
     font-size:4em;
