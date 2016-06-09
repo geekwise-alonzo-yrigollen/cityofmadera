@@ -204,9 +204,30 @@ header{
     background-color:#fff;
     opacity:.8;
     font-size:1em;
-    width:25%;
+    width:30%;
     
 }
+
+/****MAIN MIDDLE TITLE TEXT****/
+
+#city{
+    
+    padding:.8em;
+    width:30%;
+    opacity:.8;
+    width:8px;
+    color:#fff;
+    padding:11px;
+    border:1px solid ;
+    border-radius:8px;
+    margin:5px;    
+    background-color:rgb(82, 86, 89);
+    box-shadow:3px 3px 5px 6px #ccc;
+    
+}
+
+
+
 
 h1{
     
@@ -216,6 +237,8 @@ h1{
     color:#b585ce;
     
 }
+
+/*****MAIN BODY CONTENT****/
 
 main{
     
