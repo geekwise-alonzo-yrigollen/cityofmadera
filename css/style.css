@@ -56,27 +56,6 @@ h4{
 	border-right: 65px solid transparent;
 }
 
-#facts{
-    
-    margin:0 auto;
-    display:block;
-    font-size:4em;
-    padding:.2em;
-    transform:translateY(-.25em);
-    text-align:center;
-    background-color:blue;
-    
-}
-
-#long-bar{
-    
-    width:100%;
-    height:2em;
-    transform:translateY(-1em);
-    background-color:purple;
-    
-}		
-
 #temp{
     
     margin:0 auto;
@@ -220,7 +199,7 @@ h1{
 main{
     
     margin:0 auto;
-    display:block;
+    display:contain;
     width:98%;
     border-color:white;
 
@@ -229,7 +208,7 @@ main{
 /****COMMENCE 1 OF 4 FIRST SQUARE BLOCK****/
 .box{
     margin:0 auto;
-    display:block;
+    display:contain;
     transform:translateY(-5.3em);
     width:100%;
 }
@@ -237,8 +216,9 @@ main{
     
     margin:0 auto;
     display:inline-block;
-    width:calc(80%/4);
+    width:calc(89%/4);
     height:auto;
+    padding:15px 0;
     background-color:green;
     
 }
@@ -255,7 +235,7 @@ main{
 }
 .second{
     padding:1em;
-    background-color:#dcdfdf;;
+    background-color:#dcdfdf;
 }
 .third{
     padding:1em;
@@ -267,6 +247,40 @@ main{
 }
 
 /****CONCLUDE FIRST SET OF FOUR BLOCK BACKGROUND COLOR AND PADDING****/
+
+/****COMMENCE LONG BAR JUST BELOW TOP SET OF BLOCKS****/
+
+#long-bar{
+    
+    width:100%;
+    height:2em;
+    transform:translateY(-6.28em);
+    background-color:#b585ce;
+    
+}
+/****CONCLUDE LONG BAR****/
+
+/****COMMENCE BIG BLOCK MADERA FACTS ELEMENT****/
+
+#facts{
+    
+    margin:0 auto;
+    display:block;
+    font-size:4em;
+    padding:.2em;
+    transform:translateY(-1.57em);
+    text-align:center;
+    background-color:#d1d1e0;
+    
+}
+
+
+
+
+
+
+
+
 
 
 h5{
