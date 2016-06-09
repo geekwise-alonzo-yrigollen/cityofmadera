@@ -101,23 +101,27 @@ h4{
     
     margin:0 auto;
     margin-top:.5em;
-    margin-left:1em;
+    margin-left:1.2em;
     height:2.5em;
     display:block;
     float:left;
     line-height:2.8em;
     font-family:"FontAwesome";
     color:#fff;
-    /*background-color:#dcdfdf;*/
     background-color:rgb(82, 86, 89);
     
+}
+#degree{
+    
+    padding:1px;
 }
 
 .fa-sun-o{
     
-    font-size:5px;
-    font-family:"FontAwesome" !important;
-    width:5em;
+    
+    /*font-family:"FontAwesome" !important;*/
+    padding:10px;
+    width:3.91em;
     height:5em;
     
 }
@@ -178,7 +182,7 @@ header{
     width:100%;
     background-image:url(http://i.imgur.com/THvouF0.jpg);
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:contain;
 
 }
 
@@ -226,3 +230,70 @@ h3{
     color:red;
     font-size:4em;
 }
+
+/****COMMENCE MEDIA Q****/
+
+@media only screen
+    and (min-width:668px) and (max-width:830px){
+        
+        #menu-bar{
+        display:none;
+    }
+    }
+        
+    /*    img{*/
+            
+    /*        max-width:calc(100%/1.3px);*/
+    /*        height:auto;*/
+    /*        transform: translate(520px,20px);*/
+
+    /*    }*/
+        
+
+	   /* img{*/
+                
+    /*    width:calc(97%/2);*/
+    /*    height:auto; */
+    /*    transform:translateY(calc 3rem);*/
+    /*}*/
+
+
+
+        
+
+/*	    img{width:calc(590px/1);*/
+/*        height:auto; transform:translateY(10rem);*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width:1035px){*/
+/*    img{width:calc(590px/1.3);*/
+/*        height:auto; transform:translateY(13.5rem);*/
+/*    }*/
+/*}*/
+/*@media only screen*/
+/*    and (max-width:700px){*/
+        
+/*        span{*/
+            
+/*            display:block;*/
+/*            margin:0 auto;*/
+/*            height:22rem;*/
+/*            width:22rem;*/
+/*            background-color:white;*/
+            
+/*        }*/
+        
+/*        img{*/
+            
+/*            max-width:calc(100%/3);*/
+/*            transform: rotate(17rad) translate(520px,20px) scale(1);*/
+
+/*        }*/
+        
+
+	    img{width:calc(590px/2);
+        height:auto; transform:translateY(10rem);
+    }
+
+
+
