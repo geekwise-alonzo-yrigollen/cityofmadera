@@ -283,15 +283,6 @@ main{
     display:block;
     
 }
-/*#blocks{*/
-    
-/*    margin:0 auto;*/
-/*    display:inline-block;*/
-/*    width:100%*/
-/*    height:auto;*/
-/*    padding:15px 0;*/
-
-/*}*/
 
 .thousand{
     
@@ -310,6 +301,120 @@ h5{
     transform:translateY(-.009em);
 }
 
+#upcoming p{
+    
+    margin:0 auto;
+    color:#b585ce;
+    background-color:#fff;
+    display:block;
+    padding:2em;
+    font-size:3em;
+    text-align:center;
+}
+hr{
+    width:3.3em;
+    color:#d1d1e0;
+    
+}
+
+/****COMMENCE BLOCKS WITHIN THE LOWER LEVEL****/
+
+#lower-block{
+    
+    margin:0 auto;
+    color:#b585ce;
+    background-color:#c1c1d7;
+    display:block;
+    padding:2em;
+    width:70%;
+    font-size:1em;
+  
+}
+.lower-one{
+    
+    display:block;
+    width: 100px;
+	height: 100px;
+	background: red;
+    
+}
+.top{
+    color:#b585ce;
+    background-color:#b585ce;
+    
+}
+.double{
+    color:gray;
+    background-color:gray;
+}
+#view p{
+    
+    margin:0 auto;
+    display:block;
+    width:35%;
+    text-align:center;
+    padding:1em;
+    font-size:1.3em;
+    color:#fff;
+    background-color:#b585ce;
+    
+}
+
+/****COMMENCE FOOTER STYLES HERE****/
+
+footer{
+    
+    margin:0 auto;
+    display:block;
+    width:100%;
+    color:#fff;
+    background-color:#c1c1d7;
+    transform:translateY(5.5em);
+}
+
+.footer{
+    margin:0 auto;
+    display:inline-block;
+    width:100%;
+    
+}
+.footer-site {
+    
+    margin:0 auto;
+    display:inline-block;
+    width:calc(95%/3);
+    text-decoration:none;
+    float:left;
+    
+}
+ul li a{
+    text-decoration:none;
+}
+ul li{
+    text-decoration:none;
+}
+.site-map{
+    margin:0 auto;
+    display:inline-block;
+    width:calc(95%/3);
+    text-decoration:none;
+    
+}
+
+
+.map-site{
+    margin:0 auto;
+    display:inline-block;
+    width:calc(95%/3);
+    text-decoration:none;
+    float:right;
+}
+
+
+/****COMMENCE FOOTER HERE****/
+
+
+
 /****COMMENCE MEDIA Q****/
 
 @media only screen
@@ -318,7 +423,7 @@ h5{
         #menu-bar{
         display:none;
     }
-    }
+    
         
     /*    img{*/
             
