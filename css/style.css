@@ -367,6 +367,7 @@ footer{
     margin:0 auto;
     display:block;
     width:100%;
+    height:13em;
     color:#fff;
     background-color:#c1c1d7;
     transform:translateY(5.5em);
@@ -392,6 +393,15 @@ ul li a{
 }
 ul li{
     text-decoration:none;
+}
+img{
+    width:20px;
+    height:20px;
+}
+.social{
+    display:inline-block;
+    margin:0 auto;
+    background-color:#000;
 }
 .site-map{
     margin:0 auto;
