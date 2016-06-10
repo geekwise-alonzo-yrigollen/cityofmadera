@@ -219,8 +219,7 @@ main{
     width:calc(89%/4);
     height:auto;
     padding:15px 0;
-    background-color:green;
-    
+
 }
 .last{
     
@@ -274,19 +273,41 @@ main{
     
 }
 
+/****CONCLUDE MADERA FACTS****/
 
+/****COMMENCE THOUSAND SET OF BLOCK****/
+.second-set{
+    
+    width:100%;
+    margin:0 auto;
+    display:block;
+    
+}
+/*#blocks{*/
+    
+/*    margin:0 auto;*/
+/*    display:inline-block;*/
+/*    width:100%*/
+/*    height:auto;*/
+/*    padding:15px 0;*/
 
+/*}*/
 
-
-
-
-
-
-
+.thousand{
+    
+    background-color:#b3b3b3;
+}
+.ten{
+    
+    background-color:#c1c1d7;
+}
 h5{
     
-    color:red;
+    margin:0 auto;
+    display:block;
+    color:#d9d9d9;
     font-size:4em;
+    transform:translateY(-.009em);
 }
 
 /****COMMENCE MEDIA Q****/
