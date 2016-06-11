@@ -13,7 +13,7 @@ body{
     margin:0 auto;
     width:100%;
     display:block;
-    font-family:'bebas regular';
+    font-family:'avenir light';
     
 }
 
@@ -206,12 +206,17 @@ main{
 }
 
 /****COMMENCE 1 OF 4 FIRST SQUARE BLOCK****/
+/****HTML5 <em>LINE+273</em>***/
+
 .box{
     margin:0 auto;
     display:contain;
     transform:translateY(-5.3em);
     width:100%;
 }
+
+/****CLASS .ONE APPLYS TOSET-OF-8 BLOCKS****/
+
 .one{
     
     margin:0 auto;
