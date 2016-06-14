@@ -72,7 +72,9 @@ h4{
 }
 #degree{
     
+
     padding:1px;
+    font-size:1.3em;
 }
 
 .fa-sun-o{
@@ -80,7 +82,7 @@ h4{
     
     /*font-family:"FontAwesome" !important;*/
     padding:10px;
-    width:3.91em;
+    width:4.1797em;
     height:5em;
     
 }
@@ -223,15 +225,17 @@ main{
     display:inline-block;
     width:calc(89%/4);
     height:auto;
-    padding:15px 0;
+    padding:15px;
 
 }
 .last{
     
     float:right;
+    
 }
 
 /****COMMENCE FIRST SET OF FOUR BLOCKS BACKGROUND COLOR AND PADDING****/
+
 .first{
     
     padding:1em;
@@ -262,6 +266,7 @@ main{
     background-color:#b585ce;
     
 }
+
 /****CONCLUDE LONG BAR****/
 
 /****COMMENCE BIG BLOCK MADERA FACTS ELEMENT****/
@@ -281,6 +286,7 @@ main{
 /****CONCLUDE MADERA FACTS****/
 
 /****COMMENCE THOUSAND SET OF BLOCK****/
+
 .second-set{
     
     width:100%;
