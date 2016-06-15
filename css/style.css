@@ -368,7 +368,6 @@ hr{
 /****COMMENCE FOOTER STYLES HERE****/
 
 footer{
-    
     margin:0 auto;
     display:block;
     width:100%;
@@ -377,26 +376,21 @@ footer{
     background-color:#c1c1d7;
     transform:translateY(5.5em);
 }
-
 .footer{
     margin:0 auto;
     display:block;
     width:90%;
-    
+
 }
-.footer-site {
+.footer-site{
     
     margin:0 auto;
     display:inline-block;
     width:calc(70%/3);
-    text-decoration:none;
     float:left;
     
 }
-ul li a{
-    text-decoration:none;
-}
-ul li{
+a{
     text-decoration:none;
 }
 
@@ -417,8 +411,8 @@ img{
     margin:0 auto;
     display:block;
     width:calc(70%/3);
-    text-decoration:none;
-    
+    transform:translateY(1em);
+
 }
 
 .map-site{
@@ -427,6 +421,10 @@ img{
     width:calc(70%/3);
     text-decoration:none;
     float:right;
+}
+.map-site li{
+    
+    text-decoration:none;
 }
 #icon{
     
