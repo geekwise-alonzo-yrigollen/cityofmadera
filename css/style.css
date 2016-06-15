@@ -380,15 +380,15 @@ footer{
 
 .footer{
     margin:0 auto;
-    display:inline-block;
-    width:100%;
+    display:block;
+    width:90%;
     
 }
 .footer-site {
     
     margin:0 auto;
     display:inline-block;
-    width:calc(95%/3);
+    width:calc(70%/3);
     text-decoration:none;
     float:left;
     
@@ -399,32 +399,43 @@ ul li a{
 ul li{
     text-decoration:none;
 }
+
+/****COMMENCE ICON IMAGE SIZE****/
+
 img{
     width:20px;
     height:20px;
 }
 .social{
-    display:inline-block;
+    display:block;
     margin:0 auto;
-    background-color:#000;
+    /*background-color:#000;*/
+    transform:translateY(-9em);
+    
 }
 .site-map{
     margin:0 auto;
-    display:inline-block;
-    width:calc(95%/3);
+    display:block;
+    width:calc(70%/3);
     text-decoration:none;
     
 }
 
-
 .map-site{
     margin:0 auto;
     display:inline-block;
-    width:calc(95%/3);
+    width:calc(70%/3);
     text-decoration:none;
     float:right;
 }
-
+#icon{
+    
+    margin:0 auto;
+    display:inline;
+    padding:1em;
+    background-color:#000;
+    
+}
 
 /****COMMENCE FOOTER HERE****/
 
