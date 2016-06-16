@@ -16,8 +16,14 @@ body{
     font-family:'avenir light';
     
 }
-
-#menu-bar{
+#forecast_embed{
+    
+    width:2em;
+    color:#fff;
+    
+    
+}
+.menu-bar{
     
     margin:0 auto;
     display:block;
@@ -27,6 +33,12 @@ body{
     opacity:0.8;
     
 }
+/*.city-council-bar{*/
+    
+/*    height:5.1em;*/
+/*    background-color:#f2e6ff;*/
+/*    opacity:0.8;*/
+/*}*/
 
 
 /****TOP LEFT****/
@@ -426,7 +438,7 @@ img{
     
     text-decoration:none;
 }
-#icon{
+.icon{
     
     margin:0 auto;
     display:inline;
