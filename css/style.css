@@ -31,6 +31,19 @@ body{
     height:5em;
     background-color:#f2e6ff;
     opacity:0.8;
+    z-index:-1;
+    position:absolute;
+    
+}
+.background-image img{
+    
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    display:contain;
+    z-index:-2;
+    position:relative;
+    
     
 }
 /*.city-council-bar{*/
@@ -153,7 +166,7 @@ header{
     margin:0 auto;
     display:block;
     width:100%;
-    background-image:url(http://i.imgur.com/THvouF0.jpg);
+    /*background-image:url(http://i.imgur.com/THvouF0.jpg);*/
     background-repeat:no-repeat;
     background-size:contain;
 
@@ -165,7 +178,7 @@ header{
     display:block;
     width:60%;
     text-align:center;
-    transform:translateY(7em);
+    transform:translateY(-33em);
     
 }
 
