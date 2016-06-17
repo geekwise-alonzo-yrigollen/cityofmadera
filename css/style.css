@@ -459,7 +459,12 @@ img{
     background-color:#000;
     
 }
-
+.icon a img{
+    
+    transform:translateY(.3em);
+    
+    
+}
 /****COMMENCE FOOTER HERE****/
 
 
