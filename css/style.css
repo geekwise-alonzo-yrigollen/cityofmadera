@@ -70,6 +70,8 @@ h4{
     /*background-color:rgb(217, 179, 255);*/
     background-color:#b585ce;
   
+  /****BACKGROUND-COLOR IS PURPLE TEXT****/
+  
 }
 
 
@@ -172,23 +174,71 @@ header{
 
 }
 
-/****COMMENCE MAYOR IMAGE****/
+/****COMMENCE MAYOR IMAGE SECTION****/
 
 #city-council-first-section{
     
     width:100%;
-    height:30%;
+    height:580px;
     display:block;
-    
+    background-color:#fff;
+    transform:translateY(5.5em);
     
 }
 
 #mayor img{
     
-    width:50%;
+    margin:0 auto;
+    display:block;
+    width:calc(100%/2);
+    height:580px;
+    float:left;
     
     
 }
+
+#first-name-last-name{
+    
+    display:block;
+    text-align:center;
+
+}
+
+.last-name{
+    
+    line-height:11.3em;
+    background-color:#f2e6ff;
+    
+}
+
+/****CONCLUDE MAYOR IMAGE SECTION****/
+
+/****SECTION BELOW THE MAYOR IMAGE****/
+
+#about-mayor{
+    
+    margin:0 auto;
+    display:block;
+    height:80em;
+    width:100%;
+    background-color:#fff;
+
+}
+#about-mayor-first-and-last-name a{
+    
+    margin:0 auto;
+    display:block;
+    width:3em;
+    height:3em;
+    color:red;
+    line-height:5em;
+    
+    
+}
+
+
+
+
 
 
 #welcome{
@@ -233,6 +283,11 @@ h1{
     color:#b585ce;
     
 }
+h6{
+    
+    color:purple;
+    
+}
 
 /*****MAIN BODY CONTENT****/
 
@@ -266,6 +321,7 @@ main{
     padding:15px;
 
 }
+
 .last{
     
     float:right;
@@ -279,14 +335,17 @@ main{
     padding:1em;
     background-color:#d1d1e0;
 }
+
 .second{
     padding:1em;
     background-color:#dcdfdf;
 }
+
 .third{
     padding:1em;
     background-color:#d1d1e0;
 }
+
 .fourth{
     padding:1em;
     background-color:#dcdfdf;;
@@ -337,10 +396,12 @@ main{
     
     background-color:#b3b3b3;
 }
+
 .ten{
     
     background-color:#c1c1d7;
 }
+
 h5{
     
     margin:0 auto;
@@ -360,6 +421,7 @@ h5{
     font-size:3em;
     text-align:center;
 }
+
 hr{
     width:3.3em;
     color:#d1d1e0;
@@ -379,6 +441,7 @@ hr{
     font-size:1em;
   
 }
+
 .lower-one{
     
     display:block;
@@ -387,15 +450,18 @@ hr{
 	background: red;
     
 }
+
 .top{
     color:#b585ce;
     background-color:#b585ce;
     
 }
+
 .double{
     color:gray;
     background-color:gray;
 }
+
 #view p{
     
     margin:0 auto;
@@ -420,12 +486,14 @@ footer{
     background-color:#c1c1d7;
     transform:translateY(5.5em);
 }
+
 .footer{
     margin:0 auto;
     display:block;
     width:90%;
 
 }
+
 .footer-site{
     
     margin:0 auto;
@@ -434,6 +502,7 @@ footer{
     float:left;
     
 }
+
 a{
     text-decoration:none;
 }
@@ -446,7 +515,6 @@ a{
     
 }
 
-
 .social{
     display:block;
     margin:0 auto;
@@ -454,6 +522,7 @@ a{
     transform:translateY(-9em);
     
 }
+
 .site-map{
     margin:0 auto;
     display:block;
@@ -469,6 +538,7 @@ a{
     text-decoration:none;
     float:right;
 }
+
 .map-site li{
     
     text-decoration:none;
