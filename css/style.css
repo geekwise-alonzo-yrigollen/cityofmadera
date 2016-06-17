@@ -219,22 +219,44 @@ header{
     
     margin:0 auto;
     display:block;
-    height:80em;
+    height:70em;
     width:100%;
     background-color:#fff;
 
 }
+
 #about-mayor-first-and-last-name a{
     
     margin:0 auto;
     display:block;
-    width:3em;
+    width:50%;
     height:3em;
     color:red;
-    line-height:5em;
+    transform:translateY(14em);
+    color:#b585ce;
+    line-height:1em;
+    float:left;
     
 }
+#right-side{
+    
+    margin:0 auto;
+    display:block;
+    transform:translateY(14em);
+    /*line-height:8em;*/
+    float:right;
+    width:50%;
+    height:50%;
+    color:#b585ce;
+    background-color:#f2e6ff;
+    
+}
+#right-side a{
+     color:#b585ce;
+}
 
+
+/****CONCLUDE SECTION UNDER MAYOR****/
 
 
 #welcome{
