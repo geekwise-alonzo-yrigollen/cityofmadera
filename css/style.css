@@ -315,7 +315,6 @@ h1{
 h6{
     
     color:purple;
-    
 }
 
 /*****MAIN BODY CONTENT****/
@@ -519,7 +518,7 @@ footer{
 .footer{
     margin:0 auto;
     display:block;
-    width:90%;
+    width:91.01%;
 
 }
 
@@ -544,11 +543,22 @@ a{
     
 }
 
+#city-of-madera{
+    
+    margin:0 auto;
+    display:block;
+    line-height:2em;
+    transform:translateY(-8em);
+    
+    
+}
+
 .social{
     display:block;
     margin:0 auto;
     /*background-color:#000;*/
-    transform:translateY(-30em);
+    transform:translateY(-26.5em);
+    width:4em;
     
 }
 
@@ -596,6 +606,7 @@ a{
     margin:0 auto;
     display:inline;
     padding:1.3em;
+    width:calc(30%/3);
     background-color:#000;
 
 }
