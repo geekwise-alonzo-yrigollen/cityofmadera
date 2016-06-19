@@ -3,276 +3,455 @@
 <head>
     <meta charset="UTF-8">
     <title>Madera</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+ 
     <link rel="stylesheet" href="../css/style.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-      <!--COMMENCE HEADER HERE-->
+    <div class='menu-bar city-council-bar'> 
+            
+        <span>
+            <h4>
+                CITY OF MADERA
+            </h4>
+        </span>
+        
+        <!--***COMMENCE ANGLE ON MENU BAR***-->
+        
+        <div id='triangle'>
+            
+        </div>
+        
+        
+        <!--***DEGREE TEMP COMMENTED OUT FOR THE COUNCIL PAGE ***-->
+        
+        
+    <!--***COMMENCE DEGREE ELEMENT***-->
+        
+        <span id='temp'>
+            <i class="fa fa-sun-o" aria-hidden="true">
+                <span id='degree'>
+                   65&deg; F 
+                </span>     
+            </i>
+        </span>
+        
+        <span id='search'>
+            <i class="fa fa-search" aria-hiden="true"></i>
+            SEARCH
+        </span>
+        <span id='menu'>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            MENU
+        </span>
+    </div>
+    
+    <!--COMMENCE HEADER HERE-->
     
     <header>
-        <div>
-            <span>
-                <a href='/residents/residents.html'>
-                    Residents
-                </a>
-            </span>
-            <ul>
-                <a href='/residents/resident-parent.html'>
-                    <li>
-                        Resident-Parent
-                    </li>
-                </a>
-                <a href='/residents/city-facts.html'>
-                    <li>
-                        City Facts
-                    </li>
-                </a>
-                <a href='/residents/housing-resources.html'>
-                    <li>
-                        Housing Resources
-                    </li>
-                </a>
-                <a href='/residents/pets.html'>
-                    <li>
-                        Pets
-                    </li>
-                </a>
-                <a href='/residents/traffic-information.html'>
-                    <li>
-                        Traffic Information
-                    </li>
-                </a>
-                <a href='/residents/utilites.html'>
-                    <li>
-                        Utilities
-                    </li>
-                </a>
-            </ul>
-        </div>
-        <div>
-            <span>
-               <a href='/visitors/visitors.html'>
-                   Visitors
-               </a>
-            </span>
-            <ul>
-                <a href='/visitors/visitor-parent.html'>
-                    <li>
-                        Visitor - Parent
-                    </li>
-                </a>
-                <a href='/visitors/history.html'>
-                    <li>
-                        History
-                    </li>
-                </a>
-                <a href='/visitors/getting-to-madera.html'>
-                    <li>
-                        Getting to Madera (map)
-                    </li>
-                </a>
-                <a href='/visitors/accomodations.html'>
-                    <li>
-                        Accomodations
-                    </li>
-                </a>
-                <a href='/visitors/local-attractions.html'>
-                    <li>
-                        Local Attractions
-                    </li>
-                </a>
-                <a href='/visitors/relocate-to-madera.html'>
-                    <li>
-                        Relocate to Madera
-                    </li>
-                </a>
-            </ul>
-        </div>
-        <div>
-            <span>
-                <a href='/government/government.html'>Government</a>
-            </span>
-            <ul>
-                <a href='/government/government.html'>
-                    <li>
-                        Government
-                    </li>
-                </a>
-                <a href='/government/voter-registration.html'>
-                    <li>
-                        Voter Registration
-                    </li>
-                </a>
-                <a href='/government/city-council-folder/city-council.html'>
-                    <li>
-                        City Council
-                    </li>
-                </a>
+        <div id='menu-bar'>
+        <!--    <span>-->
+        <!--        <a href='/residents/residents.html'>-->
+        <!--            Residents-->
+        <!--        </a>-->
+        <!--    </span>-->
+        <!--    <ul>-->
+        <!--        <a href='/residents/resident-parent.html'>-->
+        <!--            <li>-->
+        <!--                Resident-Parent-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/residents/city-facts.html'>-->
+        <!--            <li>-->
+        <!--                City Facts-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/residents/housing-resources.html'>-->
+        <!--            <li>-->
+        <!--                Housing Resources-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/residents/pets.html'>-->
+        <!--            <li>-->
+        <!--                Pets-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/residents/traffic-information.html'>-->
+        <!--            <li>-->
+        <!--                Traffic Information-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/residents/utilites.html'>-->
+        <!--            <li>-->
+        <!--                Utilities-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--    </ul>-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--    <span>-->
+        <!--       <a href='/visitors/visitors.html'>-->
+        <!--           Visitors-->
+        <!--       </a>-->
+        <!--    </span>-->
+        <!--    <ul>-->
+        <!--        <a href='/visitors/visitor-parent.html'>-->
+        <!--            <li>-->
+        <!--                Visitor - Parent-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/visitors/history.html'>-->
+        <!--            <li>-->
+        <!--                History-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/visitors/getting-to-madera.html'>-->
+        <!--            <li>-->
+        <!--                Getting to Madera (map)-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/visitors/accomodations.html'>-->
+        <!--            <li>-->
+        <!--                Accomodations-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/visitors/local-attractions.html'>-->
+        <!--            <li>-->
+        <!--                Local Attractions-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/visitors/relocate-to-madera.html'>-->
+        <!--            <li>-->
+        <!--                Relocate to Madera-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--    </ul>-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--    <span>-->
+        <!--        <a href='/government/government.html'>Government</a>-->
+        <!--    </span>-->
+        <!--    <ul>-->
+        <!--        <a href='/government/government.html'>-->
+        <!--            <li>-->
+        <!--                Government-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/government/voter-registration.html'>-->
+        <!--            <li>-->
+        <!--                Voter Registration-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/government/city-council-folder/city-council.html'>-->
+        <!--            <li>-->
+        <!--                City Council-->
+        <!--            </li>-->
+        <!--        </a>-->
                 
-                <ul id='second-council'>
-                    <a href='/government/city-council-folder/council-four.html'>
-                        <li>
-                         Council Four
-                        </li>
-                    </a>
-                    <a href='/government/city-council-folder/council-five.html'>
-                        <li>
-                          Council Five
-                        </li>
-                    </a>
-                    <a href='/government/city-council-folder/council-six.html'>
-                        <li>
-                            Counsil Six
-                        </li>
-                    </a>
-                    <a href='/government/city-council-folder/council-one.html'>
-                        <li>
-                           Council One
-                        </li>
-                    </a>
-                    <a href='/government/city-council-folder/council-two.html'>
-                        <li>
-                            Council Two
-                        </li>
-                    </a>
-                    <a href='/government/city-council-folder/council-three.html'>
-                        <li>
-                            Council Three
-                        </li>
-                    </a>
-                </ul>
+        <!--        <ul id='second-council'>-->
+        <!--            <a href='/government/city-council-folder/council-four.html'>-->
+        <!--                <li>-->
+        <!--                 Council Four-->
+        <!--                </li>-->
+        <!--            </a>-->
+        <!--            <a href='/government/city-council-folder/council-five.html'>-->
+        <!--                <li>-->
+        <!--                  Council Five-->
+        <!--                </li>-->
+        <!--            </a>-->
+        <!--            <a href='/government/city-council-folder/council-six.html'>-->
+        <!--                <li>-->
+        <!--                    Counsil Six-->
+        <!--                </li>-->
+        <!--            </a>-->
+        <!--            <a href='/government/city-council-folder/council-one.html'>-->
+        <!--                <li>-->
+        <!--                   Council One-->
+        <!--                </li>-->
+        <!--            </a>-->
+        <!--            <a href='/government/city-council-folder/council-two.html'>-->
+        <!--                <li>-->
+        <!--                    Council Two-->
+        <!--                </li>-->
+        <!--            </a>-->
+        <!--            <a href='/government/city-council-folder/council-three.html'>-->
+        <!--                <li>-->
+        <!--                    Council Three-->
+        <!--                </li>-->
+        <!--            </a>-->
+        <!--        </ul>-->
                 
-                <a href='/government/agendas.html'>
-                    <li>
-                        Agendas
-                    </li>
-                </a>
-                <a href='/government/board-and-commissions.html'>
-                    <li>
-                        Board &amp; Commissions
-                    </li>
-                </a>
-                <a href='/government/madera-code.html'>
-                    <li>
-                        Madera Code
-                    </li>
-                </a>
-                <a href='/government/community-links.html'>
-                    <li>
-                        Community Links
-                    </li>
-                </a>
-                <a href='/government/green-and-sustainable.html'>
-                    <li>
-                        Green &amp; Sustainable / Drought
-                    </li>
-                </a>
-                <a href='/government/social-media-policy.html'>
-                    <li>
-                        Social Media Policy
-                    </li>
-                </a>
-            </ul>
+        <!--        <a href='/government/agendas.html'>-->
+        <!--            <li>-->
+        <!--                Agendas-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/government/board-and-commissions.html'>-->
+        <!--            <li>-->
+        <!--                Board &amp; Commissions-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/government/madera-code.html'>-->
+        <!--            <li>-->
+        <!--                Madera Code-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/government/community-links.html'>-->
+        <!--            <li>-->
+        <!--                Community Links-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/government/green-and-sustainable.html'>-->
+        <!--            <li>-->
+        <!--                Green &amp; Sustainable / Drought-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/government/social-media-policy.html'>-->
+        <!--            <li>-->
+        <!--                Social Media Policy-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--    </ul>-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--    <span>-->
+        <!--        <a href='/business/business.html'>-->
+        <!--            Business-->
+        <!--        </a>-->
+        <!--    </span>-->
+        <!--    <ul>-->
+        <!--        <a href='/business/business-parent.html'>-->
+        <!--            <li>-->
+        <!--                Business - Parent-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/business/economic-development.html'>-->
+        <!--            <li>-->
+        <!--                Economic Development-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/business/facts-and-figures.html'>-->
+        <!--            <li>-->
+        <!--                Facts &amp; Figures-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/business/redevelopment.html'>-->
+        <!--            <li>-->
+        <!--                Redevelopment-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/business/business-license-information.html'>-->
+        <!--            <li>-->
+        <!--                Business License Information-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--    </ul>-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--    <span>-->
+        <!--        <a href='/business/business.html'>-->
+        <!--            Business-->
+        <!--        </a>-->
+        <!--    </span>-->
+        <!--    <ul>-->
+        <!--        <a href='/business/business-parent.html'>-->
+        <!--            <li>-->
+        <!--                Business - Parent-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/business/economic-development.html'>-->
+        <!--            <li>-->
+        <!--                Economic Development-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/business/facts-and-figures.html'>-->
+        <!--            <li>-->
+        <!--                Facts &amp; Figures-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/business/redevelopment.html'>-->
+        <!--            <li>-->
+        <!--                Redevelopment-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--        <a href='/business/business-license-information.html'>-->
+        <!--            <li>-->
+        <!--                Business License Information-->
+        <!--            </li>-->
+        <!--        </a>-->
+        <!--    </ul>-->
         </div>
-        <div>
-            <span>
-                <a href='/business/business.html'>
-                    Business
-                </a>
-            </span>
-            <ul>
-                <a href='/business/business-parent.html'>
-                    <li>
-                        Business - Parent
-                    </li>
-                </a>
-                <a href='/business/economic-development.html'>
-                    <li>
-                        Economic Development
-                    </li>
-                </a>
-                <a href='/business/facts-and-figures.html'>
-                    <li>
-                        Facts &amp; Figures
-                    </li>
-                </a>
-                <a href='/business/redevelopment.html'>
-                    <li>
-                        Redevelopment
-                    </li>
-                </a>
-                <a href='/business/business-license-information.html'>
-                    <li>
-                        Business License Information
-                    </li>
-                </a>
-            </ul>
-        </div>
-    </header>
     
     <!--***HEADER END***-->
     
     <main>
-        English (United States)	español (España)
-Just minutes from the Sierra Nevada Mountains and miles from the entrance to Yosemite, the city of Madera offers an oasis retreat in the heart of the San Joaquin Valley. Madera is less than two hours from three National Parks. A sampling of events in and around Madera that reflect the area’s colorful history and heritage include: Sierra Arts Trail, Coarsegold Peddlers Fair and Indian Fair Days.
-As a premier residential community, Madera offers both residents and visitors alike an abundance of cultural events, special attractions, miles of trails and open spaces, challenging golf courses and outstanding recreational facilities as well as renowned resorts, restaurants and shopping.
+<!--        English (United States)	español (España)-->
+<!--Just minutes from the Sierra Nevada Mountains and miles from the entrance to Yosemite, the city of Madera offers an oasis retreat in the heart of the San Joaquin Valley. Madera is less than two hours from three National Parks. A sampling of events in and around Madera that reflect the area’s colorful history and heritage include: Sierra Arts Trail, Coarsegold Peddlers Fair and Indian Fair Days.-->
+<!--As a premier residential community, Madera offers both residents and visitors alike an abundance of cultural events, special attractions, miles of trails and open spaces, challenging golf courses and outstanding recreational facilities as well as renowned resorts, restaurants and shopping.-->
 
-Take part in the Madera Wine Trail Weekends or explore the Madera Wine Trail
-Visit some of the areas many museums and cultural centers
-Enjoy a look at years gone by and take part in Madera Old Timers Celebration
-Or keep your eye on the sky at the Legends over Madera Airshow
-From luxurious hotels, great dining, championship golf courses, family-family amenities, and spectacular events, Madera draws visitors from around the world. Visit Madera to explore all of the exciting possibilities available for you in Madera…a place to play! 
+<!--Take part in the Madera Wine Trail Weekends or explore the Madera Wine Trail-->
+<!--Visit some of the areas many museums and cultural centers-->
+<!--Enjoy a look at years gone by and take part in Madera Old Timers Celebration-->
+<!--Or keep your eye on the sky at the Legends over Madera Airshow-->
+<!--From luxurious hotels, great dining, championship golf courses, family-family amenities, and spectacular events, Madera draws visitors from around the world. Visit Madera to explore all of the exciting possibilities available for you in Madera…a place to play! -->
  
 
-Print
+<!--Print-->
     </main>
+    
+    <!--<span>-->
+        <!--<input type="text" name="Search"/>-->
+    <!--</span>-->
+    
     <!--***COMMENCE FOOTER***-->
-        <span>
-            <input type="text" name="Search"/>
-        </span>
+        
         
         <footer>
-            <span>
-                <ul>
-                    <li>
-                        &amp;copy2016 Madera
-                    </li>
-                    <a href='#'>
-                        <li>
-                            Government
-                        </li>
+            
+    <!--***COMMENCE FOOTER***-->
+    
+    <footer>
+        
+        <section class='footer visitor-footer'>
+            
+        <div class='footer-site'>
+    
+                <p>
+                    <h6>
+                       SITE MAP 
+                    </h6>
+                </p>
+                <p>
+                    <a href='/residents/residents.html'>RESIDENTS</a>
+                </p>
+                <p>
+                    <a href='/visitors/visitors.html'>VISITORS</a>
+                </p>
+                <p>
+                    <a href='/business/business.html'>BUSINESS</a>
+                </p>
+                <p>
+                    <a href='/government/government.html'>GOVERNMENT</a>
+                </p>
+            
+        </div>
+        <div class='site-map'>
+            
+            <div id='site-map'>
+                <img src="http://i.imgur.com/AABGxY9.jpg?1"></img>
+            </div>
+                <p>
+                    <h6>
+                        <span id='city-of-madera'>
+                            CITY OF MADERA
+                        </span>
+                    </h6>
+                    <br>
+                </p>
+                <p>
+                    MADERA CITY HALL
+                
+                    703 SHERWOOD WAY
+             
+                    MADERA, CA 93638
+                
+                    (559)674.8412
+               </p>
+        </div>
+        
+    <!--***SOCIAL MEDIA***-->
+        
+        <div class='map-site social'>
+            <h6>
+                CONNECT WITH THE CITY 
+            </h6>
+         
+         
+    <!--***COMMENCE CSS #593***-->
+         
+         
+                <div id='icon'>
+            
+                    <a href='https://www.facebook.com/'>
+                        <span class='img'>
+                            <img src='http://i.imgur.com/0EflCb5.png'>
+                        </span>
                     </a>
-                    <a href='#'>
-                        <li>
-                            Department
-                        </li>
+        
+                    <a href='https://twitter.com/'>
+                        <span class='img'>
+                            <img src="http://i.imgur.com/RY0mmF3.png">
+                        </span>
                     </a>
-                    <a href='#'>
-                        <li>
-                            News Event
-                        </li>
+                
+                    <a href='https://www.youtube.com'>
+                        <span class='img'>
+                            <img src="http://i.imgur.com/M5RDDGk.png">
+                        </span>
                     </a>
-                    <a href='#'>
-                        <li>
-                            Calendar
-                        </li>
+
+                    <a href='https://www.instagram.com/?hl=en'>
+                        <span class='img'>
+                            <img src="http://i.imgur.com/sPrPf1C.png">
+                        </span>
                     </a>
-                    <a href='#'>
-                        <li>
-                            Online Services
-                        </li>
+                
+                    <a href='https://www.tumblr.com/'>
+                        <span class='img'>
+                            <img src="http://i.imgur.com/e2OaZhO.png">
+                        </span>
                     </a>
-                    <a href='#'>
-                        <li>
-                            Municipal Code
-                        </li>
-                    </a>
-                    <a href='#'>
-                        <li>
-                            Most Popular
-                        </li>
-                    </a>
-                </ul>
-            </span>
+                
+                </div>
+            
+        </div>
+        </section>
+    </footer>
+            
+            <!--<span>-->
+            <!--    <ul>-->
+            <!--        <li>-->
+            <!--            &amp;copy2016 Madera-->
+            <!--        </li>-->
+            <!--        <a href='#'>-->
+            <!--            <li>-->
+            <!--                Government-->
+            <!--            </li>-->
+            <!--        </a>-->
+            <!--        <a href='#'>-->
+            <!--            <li>-->
+            <!--                Department-->
+            <!--            </li>-->
+            <!--        </a>-->
+            <!--        <a href='#'>-->
+            <!--            <li>-->
+            <!--                News Event-->
+            <!--            </li>-->
+            <!--        </a>-->
+            <!--        <a href='#'>-->
+            <!--            <li>-->
+            <!--                Calendar-->
+            <!--            </li>-->
+            <!--        </a>-->
+            <!--        <a href='#'>-->
+            <!--            <li>-->
+            <!--                Online Services-->
+            <!--            </li>-->
+            <!--        </a>-->
+            <!--        <a href='#'>-->
+            <!--            <li>-->
+            <!--                Municipal Code-->
+            <!--            </li>-->
+            <!--        </a>-->
+            <!--        <a href='#'>-->
+            <!--            <li>-->
+            <!--                Most Popular-->
+            <!--            </li>-->
+            <!--        </a>-->
+            <!--    </ul>-->
+            <!--</span>-->
             
             <!--***FOOTER END***-->
 </body>

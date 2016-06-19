@@ -531,6 +531,12 @@ footer{
     
 }
 
+.visitor-footer{
+    
+    transform:translateY(-3em);
+    
+}
+
 a{
     text-decoration:none;
 }
