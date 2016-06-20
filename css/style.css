@@ -21,6 +21,7 @@ body{
     
     margin-top:4em;
     width:99.1%;
+    background-color:gray;
     
     
 }
@@ -162,20 +163,20 @@ h4{
 
 /****COMMENCE-VISITOR-MAIN-SECTION****/
 
-#visitor-section{
+#vstp{
     
     margin:0 auto;
     display:block;
     width:100%;
-
+    
 }
+
 
 .title-visitor{
 
     transform:translateY(5.14em); 
     width:100%;
     padding:1.2em;
-    background-color:#e6e6ff;
     
 }
 
@@ -190,6 +191,7 @@ h4{
     background-color:#e6e6ff;
 
 }
+ 
 #content-heading{
     
     width:90%;
@@ -204,6 +206,68 @@ h4{
     font-size:.6em;
     
 }
+
+/****CONCLUDE CONTENT HEADING STYLE****/
+
+
+/****COMMENCE SIX RECTANGLES VISITORS-PARENT PAGE****/
+
+
+#top-article{
+    
+    display:block;
+    margin:0 auto;
+    width:100%;
+    text-align:center;
+    transform:translateY(5em);
+    background-color:#e6e6ff;
+    
+}
+#bottom-article{
+    
+    display:block;
+    margin:0 auto;
+    width:100%;
+    text-align:center;
+    transform:translateY(5em);
+    background-color:purple;
+    
+}
+
+.in{
+    margin:2em;
+    display:inline-block;
+    width:calc(85%/3);
+    float:left;
+}
+.bottom-in{
+    margin:2em;
+    display:inline-block;
+    width:calc(85%/3);
+    line-height:7em;
+    float:left;
+}
+.link{
+    
+    padding:55px 130px;
+    border:solid 2px gray;
+    background-color:#fff;
+    
+}
+.out{
+    margin:2em;
+    display:inline-block;
+    width:calc(85%/3);
+    float:right;
+}
+.bottom-out{
+    margin:2em;
+    display:inline-block;
+    width:calc(85%/3);
+    line-height:7em;
+    float:right;
+}
+
 
 #search{
     
@@ -415,6 +479,7 @@ main{
 
 }
 
+
 /****COMMENCE 1 OF 4 FIRST SQUARE BLOCK****/
 /****HTML5 <em>LINE+273</em>***/
 
@@ -615,7 +680,7 @@ footer{
     height:13em;
     color:#fff;
     background-color:#c1c1d7;
-    transform:translateY(55em);    
+    transform:translateY(25em);    
     
     
 }
@@ -632,14 +697,20 @@ footer{
     margin:0 auto;
     display:inline-block;
     width:calc(70%/3);
+    transform:translateY(-2.8em);
     float:left;
     
 }
 
 .visitor-footer{
     
-    transform:translateY(-3em);
+    transform:translateY(-17em);
     
+}
+#copy{
+    
+    float:right;
+    transform:translateY(-11em);
 }
 
 a{
@@ -700,7 +771,7 @@ a{
 .map-site{
     margin:0 auto;
     display:inline-block;
-    width:calc(29.3%/3);
+    width:calc(30.3%/3);
     text-decoration:none;
     float:right;
 }
