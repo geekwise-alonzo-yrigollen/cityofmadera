@@ -217,10 +217,15 @@ h4{
     
     display:block;
     margin:0 auto;
-    width:100%;
+    height:auto;
+    padding:.4em;
+    width:99%;
+    line-height:4.5em;
     text-align:center;
-    transform:translateY(5em);
+    transform:translateY(2em);
     background-color:#e6e6ff;
+    z-index:2;
+    position:absolute;
     
 }
 #bottom-article{
@@ -237,11 +242,13 @@ h4{
         /*<!--*****************-->*/
 
 .in{
+    
     margin:2em;
     display:inline-block;
     width:calc(85%/3);
     box-shadow: 3px 3px 43px #e6e6ff;    
     float:left;
+    
 }
 .bottom-in{
     margin:2em;
@@ -254,7 +261,7 @@ h4{
 .link{
     
     padding:55px 130px;
-    /*border:solid 2px gray;*/
+    border:solid 2px gray;
     box-shadow: 3px 3px 43px #e6e6ff;  
     background-color:#fff;
     
