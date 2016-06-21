@@ -176,7 +176,7 @@ h4{
 
     transform:translateY(5.14em); 
     width:100%;
-    padding:1.2em;
+    padding:1em;
     
 }
 
@@ -691,11 +691,20 @@ footer{
     margin:0 auto;
     display:block;
     width:100%;
-    height:13em;
+    height:auto;
     color:#fff;
     background-color:#c1c1d7;
     transform:translateY(25em);    
     
+    
+}
+
+/****LEFT OFF HERE ON 6/21****/
+
+
+.visitor-footer{
+    
+    transform:translateY(3.5em);
     
 }
 
@@ -711,16 +720,11 @@ footer{
     margin:0 auto;
     display:inline-block;
     width:calc(70%/3);
-    transform:translateY(-2.8em);
+    transform:translateY(1.8em);
     float:left;
     
 }
 
-.visitor-footer{
-    
-    transform:translateY(-17em);
-    
-}
 #copy{
     
     float:right;
@@ -772,7 +776,7 @@ a{
     margin:0 auto;
     display:block;
     width:calc(25%/3);
-    transform:translateY(3em);
+    transform:translateY(2em);
 
 }
 .site-map p{
