@@ -711,7 +711,7 @@ footer{
     margin:0 auto;
     display:inline-block;
     width:calc(70%/3);
-    transform:translateY(-2.8em);
+    transform:translateY(-.8em);
     float:left;
     
 }
@@ -736,7 +736,7 @@ a{
 .img img{
     width:20px;
     height:20px;
-    
+    padding:.5px;
 }
 
 #city-of-madera{
@@ -753,7 +753,7 @@ a{
     display:block;
     margin:0 auto;
     /*background-color:#000;*/
-    transform:translateY(-23.9em);
+    transform:translateY(-21.9em);
     width:4em;
     
 }
@@ -772,12 +772,18 @@ a{
     margin:0 auto;
     display:block;
     width:calc(25%/3);
-    transform:translateY(3em);
+    transform:translateY(-1.5em);
 
+}
+.site-map h6{
+    
+    transform:translateY(-4em);
+    
 }
 .site-map p{
     
-    transform:translateY(-11em);
+    transform:translateY(-8em);
+    height:20px;
     padding:.8em;
     
 }
@@ -801,8 +807,9 @@ a{
     
     margin:0 auto;
     display:inline;
-    padding:1.3em;
-    width:calc(30%/3);
+    padding:.7em;
+    height:auto;
+    /*width:calc(33%/3);*/
     background-color:#000;
 
 }
