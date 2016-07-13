@@ -17,6 +17,15 @@ body{
     
 }
 
+p{
+    padding:0;
+    margin:0;
+}
+
+div{
+    display:inline-block;
+}
+
 #visitor-body{
     
     margin-top:4em;
@@ -52,6 +61,7 @@ body{
     position:absolute;
     
 }
+
 .background-image img{
     
     margin:0 auto;
@@ -61,10 +71,8 @@ body{
     z-index:-2;
     position:relative;
     
-    
 }
 /****CITY-COUNCIL-MENU-BAR-STYLE****/
-
 
 .city-council-bar{
     
@@ -93,7 +101,6 @@ h4{
   
 }
 
-
 #triangle{
     
 	width: 0;
@@ -120,26 +127,26 @@ h4{
     
 }
 
-/*.visitor-temp{*/
+.visitor-temp{
     
-/*    margin:0 auto;*/
-/*    margin-top:1.5em;*/
-/*    margin-left:1.2em;*/
-/*    height:2.5em;*/
-/*    display:block;*/
-/*    float:left;*/
-/*    line-height:2.8em;*/
-/*    font-family:"FontAwesome";*/
-/*    background-color:#f2e6ff;*/
-/*    text-shadow: .5px .5px #000;*/
+    margin:0 auto;
+    margin-top:1.5em;
+    margin-left:1.2em;
+    height:2.5em;
+    display:block;
+    float:left;
+    line-height:2.8em;
+    font-family:"FontAwesome";
+    background-color:#f2e6ff;
+    text-shadow: .5px .5px #000;
 
-/*}*/
+}
 
 .degree{
     
     padding:1px;
     font-size:.3em;
-    /*background-color:#000;*/
+    background-color:#000;
 }
 
 
@@ -154,7 +161,6 @@ h4{
 }
 
 .fa-sun-o{
-    
     
     /*font-family:"FontAwesome" !important;*/
     padding:10px;
@@ -284,7 +290,6 @@ h4{
     float:right;
 }
 
-
 #search{
     
     margin:0 auto;
@@ -351,78 +356,92 @@ header{
 /****COMMENCE MAYOR IMAGE SECTION****/
 
 #city-council-first-section{
-    
     width:100%;
-    height:580px;
+    height:550px;
     display:block;
-    background-color:#fff;
-    transform:translateY(5.5em);
-    
+    transform:translateY(4em);
+    font-family: 'Prompt', sans-serif;
+}
+
+#mayor{
+    width:55%;
 }
 
 #mayor img{
-    
     margin:0 auto;
-    display:block;
-    width:calc(100%/2);
-    height:580px;
+    width:100%;
     float:left;
-    
-    
 }
 
 #first-name-last-name{
-    
-    display:block;
     text-align:center;
-
+    width:45%;
+    height:100%;
+    float:right;
+    
 }
 
-.last-name{
-    
-    line-height:11.3em;
+#mayor_title_container{
+    width:100%;
+    height:55%;
+}
+
+#mayor_title{
+    position:relative;
+    top:95px;
+    letter-spacing:-2px;
+}
+
+#mayor_name_container{
+    width:100%;
+    height:45%;
     background-color:#f2e6ff;
-    
 }
+
+.mayor_name{
+    position:relative;
+    top:25px;
+    letter-spacing:-2px;
+}
+
 
 /****CONCLUDE MAYOR IMAGE SECTION****/
 
 /****SECTION BELOW THE MAYOR IMAGE****/
 
-#about-mayor{
-    
-    margin:0 auto;
-    display:block;
-    height:48em;
-    width:100%;
-    background-color:#fff;
-
+.color_purple{
+    color:#b585ce;
 }
 
-#about-mayor-first-and-last-name a{
-    
-    margin:0 auto;
-    display:block;
-    width:50%;
+.width_100_percent{
+    width:100%;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.about_mayor_height{
+    height:50px;
+}
+
+#about-mayor{
     height:auto;
-    color:red;
-    transform:translateY(14em);
-    color:#b585ce;
+    width:100%;
+    margin-top:140px;
+}
+
+#about-mayor-first-and-last-name{
+    
+    width:55%;
     line-height:1em;
     float:left;
     
 }
 #right-side{
-    
-    margin:0 auto;
-    display:block;
-    transform:translateY(14em);
-    /*line-height:8em;*/
     float:right;
-    width:50%;
-    height:auto;
+    width:45%;
     color:#b585ce;
-    padding:1.5em;
     background-color:#f2e6ff;
     
 }
@@ -756,7 +775,6 @@ a{
     margin:0 auto;
     display:block;
     line-height:2em;
-    transform:translateY(-8em);
     
     
 }
@@ -769,7 +787,7 @@ a{
     display:block;
     margin:0 auto;
     /*background-color:#000;*/
-    transform:translateY(-21.9em);
+    transform:translateY(-15.9em);
     width:4em;
     
 }
@@ -856,11 +874,12 @@ a{
         height:auto;
         display:inline-block;
     }
+    footer{
+        width:100%;
+        height:auto;
+    }
+        } 
     
-        }    
-    
-
-
 
         
 
